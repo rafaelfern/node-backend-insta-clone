@@ -1,0 +1,1 @@
+mongoose.connect('mongodb+srv://semana:semana@cluster0-1vosf.mongodb.net/test?retryWrites=true&w=majority',
