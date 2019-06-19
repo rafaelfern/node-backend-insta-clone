@@ -12,7 +12,7 @@ const io = require('socket.io')(server);
     String copiada ao criar um cluster no https://cloud.mongodb.com.
     Lembrar de configurar o Database access e Network access no https://cloud.mongodb.com.
 */
-mongoose.connect('',
+mongoose.connect('mongodb+srv://semana:semana@cluster0-1vosf.mongodb.net/test?retryWrites=true&w=majority',
   { useNewUrlParser: true },
 );
 app.use((req, res, next) => {
